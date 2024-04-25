@@ -1,4 +1,4 @@
-1.  Install your website : Redux DevTools
+1.  Install in your browser : Redux DevTools
 2.  To run project : npm run dev.
 3.  For debug client : npm run dev and go to launch.json and press F5.
 4.  For debug server : go to Run and Debug and press on Launch Server open web on "http://localhost:5000".
