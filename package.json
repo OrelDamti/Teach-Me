@@ -1,0 +1,52 @@
+{
+  "name": "teach-me",
+  "version": "1.0.0",
+  "description": "MERN Teach-Me: A Web Application For Finding Private Tutors For Students.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "cd frontend && npm install && npm run dev -- --open",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrelDamti/Teach-Me.git"
+  },
+  "author": "Orel Damti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrelDamti/Teach-Me/issues"
+  },
+  "homepage": "https://github.com/OrelDamti/Teach-Me#readme",
+  "dependencies": {
+    "@railway/cli": "^3.5.2",
+    "@rollup/plugin-run": "^3.0.2",
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "google-maps-react": "^2.0.6",
+    "heroku": "^8.1.9",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.12",
+    "railway": "^2.0.17",
+    "react-bootstrap": "^2.10.1",
+    "rollup": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.3"
+  }
+}

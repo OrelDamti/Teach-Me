@@ -1,0 +1,77 @@
+@import "./font.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+body {
+  margin: 0;
+  font-family: "IBM plex sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a,
+input,
+p,
+div,
+button,
+span {
+  font-family: "IBM plex sans", "Helvetica Neue", sans-serif;
+}
+
+.show-mobile {
+  display: none;
+}
+
+.custome-popup {
+  border-radius: 3px;
+  padding: 0;
+}
+
+.custome-popup .ant-select-item {
+  border-radius: 0;
+}
+
+.custome-popup .ant-select-item:hover {
+  background-color: #dbe3ee !important;
+}
+
+.custome-popup .ant-select-item-option-selected {
+  background-color: #fafafa !important;
+}
+
+.search-component {
+  width: calc(100% - 120px);
+  height: 100%;
+  background-color: rgb(44, 63, 72);
+  color: rgb(242, 244, 248);
+  padding-right: 16px;
+
+  @media (max-width: 1318px) {
+    background-color: transparent;
+  }
+}

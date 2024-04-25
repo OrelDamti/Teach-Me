@@ -1,0 +1,48 @@
+const courses = [
+  {
+    _id: "1",
+    name: "Hedva",
+    image: "/images/hedva.jpg",
+    description: "Look for teachers",
+    Faculty: "Software",
+    price: 39.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    _id: "2",
+    name: "Hedva",
+    image: "/images/hedva.jpg",
+    description: "Look for teachers",
+    Faculty: "Software",
+    price: 599.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    _id: "3",
+    name: "Hedva",
+    image: "/images/hedva.jpg",
+    description: "Look for teachers",
+    Faculty: "Software",
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    _id: "4",
+    name: "Hedva",
+    image: "/images/hedva.jpg",
+    description: "Look for teachers",
+    Faculty: "Software",
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+];
+
+export default courses;

@@ -1,0 +1,52 @@
+{
+    "components": {
+      "Input": {
+        "colorBgContainer": "#fff",
+        "placeholder": "#888"
+      },
+      "Button": {
+        "colorPrimaryHover": "#005ef6",
+        "colorLinkHover": "#005ef6",
+        "colorErrorHover": "#da1e28"
+      }
+    },
+    "token": {
+      "colorPrimary": "#005ef6",
+      "colorSuccess": "#31c048",
+      "colorError": "#da1e28",
+      "colorWarning": "#FF832B",
+      "colorSuccessBg": "#dbe3ee",
+      "colorErrorBg": "rgba(238, 0, 0, 0.1)",
+      "colorLink": "#005ef6",
+      "colorLinkActive": "#005ef6",
+      "colorLinkHover": "#005ef6",
+      "fontSize": 14,
+      "fontSizeHeading1": 48,
+      "fontSizeHeading2": 26,
+      "fontSizeHeading3": 24,
+      "fontSizeHeading4": 20,
+      "borderRadius": 4,
+      "borderRadiusXS": 8,
+      "borderRadiusLG": 16,
+      "borderRadiusSM": 12,
+      "borderRadiusOuter": 5,
+      "boxShadow": "0px -3px 10px rgba(0, 0, 0, 0.25)",
+      "colorBgMask": "rgba(19, 19, 19, 0.4)",
+      "colorTextBase": "#001D3F",
+      "colorTextHeading": "#000000",
+      "colorText": "#152934",
+      "colorTextSecondary": "#171832",
+      "colorTextTertiary": "#8492A6",
+      "colorTextQuaternary": "#001D3F",
+      "colorBorder": "#d6d6d6",
+      "fontFamily": "IBM plex sans",
+      "padding": 12,
+      "controlHeightLG": 40,
+      "blue1": "#152935",
+      "blue2": "#d9d9d9",
+      "blue3": "#3d70b2",
+      "blue4": "#0f62fe",
+      "white": "#fff"
+    }
+  }
+  
