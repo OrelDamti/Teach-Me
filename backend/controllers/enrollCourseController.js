@@ -79,7 +79,7 @@ const enrollCourse = asyncHandler(async (req, res) => {
   const teacherEmail = isteacherCourseIdExist.teacherId.email;
   const teacherName = isteacherCourseIdExist.teacherId.name;
   // console.log("teacherName" , teacherName)
-  // const courseName = isteacherCourseIdExist.courseId.name;
+   const courseName = isteacherCourseIdExist.courseId.name;
   //console.log("teacherCourseId" , teacherCourseId , "isteacherCourseIdExist" , isteacherCourseIdExist)
   // console.log("object" , isteacherCourseIdExist.teacherId._id)
   const teachers = await Teachers.findOne({ user: isteacherCourseIdExist.teacherId._id });
