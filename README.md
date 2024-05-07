@@ -1,6 +1,8 @@
 [Link to project : Teach-Me.com](https://teach-me-bc4bcbfc9897.herokuapp.com/)
 
 ![image](https://github.com/OrelDamti/Teach-Me/assets/92372014/e2fb0b41-b289-43fb-b57f-fc01e0639813)
+![image](https://github.com/OrelDamti/Teach-Me/assets/92372014/0db6509f-ccdf-4169-826d-4194ec02c7ba)
+
 
 1.  Install in your browser : Redux DevTools
 2.  In root folder install npm package in command 'npm i' (C:\Teach-Me> npm i)
