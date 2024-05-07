@@ -362,7 +362,7 @@ const createCourse = ({ isUpdate = false }) => {
     form.validateFields().then(async (res) => {
       if (res) {
         if (data?.grade <= 85) {
-          toast.error("Grade should be greater than 85!");
+          toast.error("Grade is not enough to teach the course");
         } else {
           try {
             dispatch(setGlobalLoader(true));
