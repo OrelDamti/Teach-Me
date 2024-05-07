@@ -91,13 +91,13 @@ const enrollCourse = asyncHandler(async (req, res) => {
   // console.log("phoneStudent" , phoneStudent)
 
   const studentMessage = `Hello ${studentName},\n
-  You got enrolled in Course - ${courseName} with Teacher ${teacherName} his number to contact him 0${phoneTeacher}.\n
+  You got enrolled in Course - ${courseName} with Teacher ${teacherName} his number to contact him ${phoneTeacher}.\n
   Your class is scheduled on ${slot.day} at ${formatTime(slot.startTime)} to ${formatTime(slot.endTime)}.\n
   Thank you for enrolling in our course.\n
   Regards,\n
   TeachMe Team`;
   const teacherMessage = `Hello ${teacherName},\n
-  You got enrolled in Course - ${courseName}, with Student ${studentName} his number to contact him 0${phoneStudent}.\n
+  You got enrolled in Course - ${courseName}, with Student ${studentName} his number to contact him ${phoneStudent}.\n
   Your class is scheduled on ${slot.day} at ${formatTime(slot.startTime)} to ${formatTime(slot.endTime)}.\n
   Thank you for enrolling in our course.\n
   Regards,\n
