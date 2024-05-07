@@ -1,4 +1,4 @@
-[Link to the project : Teach-Me.com](https://teach-me-bc4bcbfc9897.herokuapp.com/)
+[Link to project : Teach-Me.com](https://teach-me-bc4bcbfc9897.herokuapp.com/)
 
 1.  Install in your browser : Redux DevTools
 2.  In root folder install npm package in command 'npm i' (C:\Teach-Me> npm i)
